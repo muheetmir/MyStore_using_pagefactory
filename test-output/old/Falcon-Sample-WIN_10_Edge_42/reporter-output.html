@@ -1,0 +1,44 @@
+<h2>Reporter output</h2><table><tr><td>INFO: The value found with Environment variable Falcon is: Falcon</td></tr>
+<tr><td>INFO: The value found with Environment Module variable sample is: sample</td></tr>
+<tr><td>The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42</td></tr>
+<tr><td>INFO: Clients Found: [Falcon]
+</td></tr>
+<tr><td>INFO: Modules Selected: [sample]
+</td></tr>
+<tr><td>INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42</td></tr>
+<tr><td><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.MyStoreAppOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+</td></tr>
+<tr><td>Opening browser: Edge</td></tr>
+<tr><td>Maximizing browser window</td></tr>
+<tr><td>PASS : Verifying the login page title : ACTUAL : My Store 	EXPECTED :My Store</td></tr>
+<tr><td>clicking on sign in link</td></tr>
+<tr><td>enter the user name</td></tr>
+<tr><td>Enter password</td></tr>
+<tr><td>click on sign in</td></tr>
+<tr><td>verifying the user first and last name</td></tr>
+<tr><td>Click on home icon</td></tr>
+<tr><td>click on t-shirts link</td></tr>
+<tr><td>click on more button</td></tr>
+<tr><td>Adding item into cart</td></tr>
+<tr><td>click on add to cart button</td></tr>
+<tr><td>click on proceed to checkout button</td></tr>
+<tr><td>check out on summary page</td></tr>
+<tr><td>checkout on address page</td></tr>
+<tr><td>accept term and conditons</td></tr>
+<tr><td>checkout on shipping page</td></tr>
+<tr><td>click on pay by check link</td></tr>
+<tr><td>click on confirm order button</td></tr>
+<tr><td>Verifying order placed confirmation message</td></tr>
+</table>

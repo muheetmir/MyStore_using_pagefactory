@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable sample is: sample]]>
+    </line>
+    <line>
+      <![CDATA[The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clients Found: [Falcon]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Modules Selected: [sample]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.mystoreapplication.testscript.MyStoreAppOrder"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: Edge]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verifying the login page title : ACTUAL : My Store 	EXPECTED :My Store]]>
+    </line>
+    <line>
+      <![CDATA[clicking on sign in link]]>
+    </line>
+    <line>
+      <![CDATA[enter the user name]]>
+    </line>
+    <line>
+      <![CDATA[Enter password]]>
+    </line>
+    <line>
+      <![CDATA[click on sign in]]>
+    </line>
+    <line>
+      <![CDATA[verifying the user first and last name]]>
+    </line>
+    <line>
+      <![CDATA[Click on home icon]]>
+    </line>
+    <line>
+      <![CDATA[click on t-shirts link]]>
+    </line>
+    <line>
+      <![CDATA[click on more button]]>
+    </line>
+    <line>
+      <![CDATA[Adding item into cart]]>
+    </line>
+    <line>
+      <![CDATA[click on add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[click on proceed to checkout button]]>
+    </line>
+    <line>
+      <![CDATA[check out on summary page]]>
+    </line>
+    <line>
+      <![CDATA[checkout on address page]]>
+    </line>
+    <line>
+      <![CDATA[accept term and conditons]]>
+    </line>
+    <line>
+      <![CDATA[checkout on shipping page]]>
+    </line>
+    <line>
+      <![CDATA[click on pay by check link]]>
+    </line>
+    <line>
+      <![CDATA[click on confirm order button]]>
+    </line>
+    <line>
+      <![CDATA[Verifying order placed confirmation message]]>
+    </line>
+  </reporter-output>
+  <suite name="Falcon-Sample-WIN_10_Edge_42" duration-ms="37611" started-at="2020-04-03T15:55:50Z" finished-at="2020-04-03T15:56:27Z">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="37611" started-at="2020-04-03T15:55:50Z" finished-at="2020-04-03T15:56:27Z">
+      <class name="com.qa.automation.mystoreapplication.testscript.MyStoreAppOrder">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.qa.automation.mystoreapplication.testscript.MyStoreAppOrder@7d570b68]" name="preSetup" is-config="true" duration-ms="40" started-at="2020-04-03T21:25:50Z" finished-at="2020-04-03T21:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="signIntoMyStore(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.automation.mystoreapplication.testscript.MyStoreAppOrder@7d570b68]" name="signIntoMyStore" duration-ms="16310" started-at="2020-04-03T21:25:50Z" finished-at="2020-04-03T21:26:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser: Edge]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verifying the login page title : ACTUAL : My Store 	EXPECTED :My Store]]>
+            </line>
+            <line>
+              <![CDATA[clicking on sign in link]]>
+            </line>
+            <line>
+              <![CDATA[enter the user name]]>
+            </line>
+            <line>
+              <![CDATA[Enter password]]>
+            </line>
+            <line>
+              <![CDATA[click on sign in]]>
+            </line>
+            <line>
+              <![CDATA[verifying the user first and last name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signIntoMyStore -->
+        <test-method status="PASS" signature="clickOnProduct()[pri:2, instance:com.qa.automation.mystoreapplication.testscript.MyStoreAppOrder@7d570b68]" name="clickOnProduct" duration-ms="2871" started-at="2020-04-03T21:26:06Z" finished-at="2020-04-03T21:26:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on home icon]]>
+            </line>
+            <line>
+              <![CDATA[click on t-shirts link]]>
+            </line>
+            <line>
+              <![CDATA[click on more button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnProduct -->
+        <test-method status="PASS" signature="placeOrder()[pri:3, instance:com.qa.automation.mystoreapplication.testscript.MyStoreAppOrder@7d570b68]" name="placeOrder" duration-ms="18413" started-at="2020-04-03T21:26:09Z" finished-at="2020-04-03T21:26:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Adding item into cart]]>
+            </line>
+            <line>
+              <![CDATA[click on add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[click on proceed to checkout button]]>
+            </line>
+            <line>
+              <![CDATA[check out on summary page]]>
+            </line>
+            <line>
+              <![CDATA[checkout on address page]]>
+            </line>
+            <line>
+              <![CDATA[accept term and conditons]]>
+            </line>
+            <line>
+              <![CDATA[checkout on shipping page]]>
+            </line>
+            <line>
+              <![CDATA[click on pay by check link]]>
+            </line>
+            <line>
+              <![CDATA[click on confirm order button]]>
+            </line>
+            <line>
+              <![CDATA[Verifying order placed confirmation message]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+      </class> <!-- com.qa.automation.mystoreapplication.testscript.MyStoreAppOrder -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+</testng-results>
